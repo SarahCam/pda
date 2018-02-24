@@ -37,7 +37,7 @@ class CardGameTest < MiniTest::Test
 
   def test_cards_total___13
     cards = [@card1, @card2, @card3]
-    assert_equal(13, CardGame.cards_total(cards))
+    assert_equal("You have a total of 13", CardGame.cards_total(cards))
   end
 
 end
