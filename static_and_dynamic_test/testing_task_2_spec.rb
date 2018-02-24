@@ -11,4 +11,8 @@ class CardGameTest < MiniTest::Test
     @card3 = CardGame.new("Diamonds", 1)
   end
 
+  def test_get_suit
+    assert_equal("Spades", @card1.suit)
+  end
+
 end
