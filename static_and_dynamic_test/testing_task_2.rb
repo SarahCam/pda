@@ -5,7 +5,7 @@
 
 class CardGame
 
-  attr_reader :suit
+  attr_reader :suit, :value
 
   def initialize(suit, value)
     @suit = suit
