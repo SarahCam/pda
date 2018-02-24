@@ -9,7 +9,7 @@ class CardGame
 
   def initialize(suit, value)
     @suit = suit
-    @value = value;
+    @value = value
   end
 
   def self.checkforAce(card)
@@ -24,7 +24,7 @@ class CardGame
   if card1.value > card2.value
     return card1
   else
-    card2
+    return card2
   end
 end
 
