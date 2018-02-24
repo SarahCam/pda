@@ -12,8 +12,8 @@ class CardGame
     @value = value;
   end
 
-  def checkforAce(card)
-    if card.value = 1
+  def self.checkforAce(card)
+    if card.value == 1
       return true
     else
       return false
