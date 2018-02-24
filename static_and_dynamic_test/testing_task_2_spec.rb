@@ -31,8 +31,8 @@ class CardGameTest < MiniTest::Test
     assert_equal(@card2, CardGame.highest_card(@card1, @card2))
   end
 
-  # def test_highest_card___9_of_Hearts___card2
-  #   assert_equal(@card2, CardGame.highest_card(@card2, @card3))
-  # end
+  def test_highest_card___9_of_Hearts___card2
+    assert_equal(@card2, CardGame.highest_card(@card2, @card3))
+  end
 
 end
